@@ -1,0 +1,34 @@
+Arguments: 
+  /home/rails/.nvm/versions/node/v18.12.0/bin/node /usr/local/bin/yarn add bootstrap@5.3.0-alpha3
+
+PATH: 
+  /home/rails/.rbenv/shims:/home/rails/.rbenv/shims:/home/rails/.rbenv/bin:/home/rails/.local/bin:/home/rails/.rbenv/shims:/home/rails/google-cloud-cli-414.0.0-linux-arm/google-cloud-sdk/bin:/home/rails/.nvm/versions/node/v18.12.0/bin:/home/rails/.rbenv/shims:/home/rails/.rbenv/bin:/home/rails/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rails/.rvm/bin:/home/rails/.rvm/bin:/home/rails/.rvm/bin:/home/rails/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ENETUNREACH 2606:4700::6810:1623:443 - Local (:::0)
+      at internalConnect (node:net:1053:16)
+      at defaultTriggerAsyncIdScope (node:internal/async_hooks:464:18)
+      at emitLookup (node:net:1209:9)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:103606:29
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:103452:25
+      at module.exports.RawTask.call (/usr/local/lib/node_modules/yarn/lib/cli.js:79584:19)
+      at flush (/usr/local/lib/node_modules/yarn/lib/cli.js:79666:29)
+      at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
