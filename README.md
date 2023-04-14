@@ -8,8 +8,10 @@ Things you may want to cover:
 # 3.0.4
 
 * System dependencies
- #gem bundle
-
+ # gem bundle
+   yarn add jquery popper.js bootstrap
+  mkdir app/javascript/stylesheets
+  echo > app/javascript/stylesheets/application.scss
 * Configuration
 
 * Database creation
